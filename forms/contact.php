@@ -4,7 +4,7 @@ $email= $_POST['email'];
 $message= $_POST['message'];
 $to = "imamdfs21@mail.com";
 $subject = "Mail From website";
-$txt ="Name = ". $name . "\r\n  Email = " . $email . "\r\n Message =" . $message;
+$txt ="name = ". $name . "\r\n  email = " . $email . "\r\n message =" . $message;
 $headers = "From: noreply@yoursite.com" . "\r\n" .
 "CC: somebodyelse@example.com";
 if($email!=NULL){
